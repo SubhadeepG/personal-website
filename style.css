@@ -64,7 +64,7 @@ ul {
     margin-bottom: 20px;
 }
 .services {
-    margin: 5% 20%;
+    margin: 5% 12%;
 }
 .services h1 {
     text-align: center;
@@ -74,23 +74,29 @@ ul {
     display: flex;
     justify-content: center;
     text-align: center;
+    gap: 50px;
 }
 .testimonial {
     margin: 0;
     background-color: #E5E7EB;
-}
-.testimonial p {
     font-size: 24px;
     color: #1f2937;
     font-weight: 300;
-    margin: 0 15%;
-    padding: 20px;
+}
+.testimonial div {
+    margin: 0% 12%;
+    /* border: 2px solid black; */
+    padding: 100px;
+}
+.testimonial-person-name {
+    text-align: right;
+    font-weight: 700;
 }
 .take-action {
     display: flex;
     background-color: #3882f6;
     color: white;
-    margin: 5% 10%;
+    margin: 5% 12%;
     padding: 20px;
     border-radius: 10px;
     justify-content: space-around;
