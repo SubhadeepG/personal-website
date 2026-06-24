@@ -54,6 +54,14 @@ ul {
     margin-left: 12%;
     width: 600px;
 }
+.box1-left h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+.box1-left p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 .box1 img {
     width: 300px;
     height: auto;
