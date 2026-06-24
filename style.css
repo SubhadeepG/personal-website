@@ -76,17 +76,21 @@ ul {
     text-align: center;
     gap: 50px;
 }
-.testimonial {
+.testimonials {
     margin: 0;
     background-color: #E5E7EB;
     font-size: 24px;
     color: #1f2937;
     font-weight: 300;
 }
-.testimonial div {
+.testimonials-container {
     margin: 0% 12%;
     /* border: 2px solid black; */
     padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: space-around;
 }
 .testimonial-person-name {
     text-align: right;
